@@ -1,0 +1,21 @@
+{
+  "name": "ProjectOne",
+  "homepage": "https://github.com/Estephanytf/DAW_estephany",
+  "authors": [
+    "Estephanytf <floresestephany81@@gmail.com.mx>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "^5.0.13",
+    "boostrap": "^4.1.1"
+  }
+}
