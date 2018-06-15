@@ -50,6 +50,17 @@
 
   <script src="bower_components/boostrap/dist/js/bootstrap.js"></script>
   <!-- Se agrega la libreria de boostrap js-->
+  <script src ="bower_components/hammerjs/hammer.js"></script>
+  <script>
+    var $body =document.body;
+    var hammertime = new hammer($body);
+  hammertime.on('swipeleft', function(ev) {
+  	console.log(ev);
+  });
+  hammertime.on('swiperight', function(ev) {
+    console.log(ev);
+  });
+  </script>
 
 
 </body>
